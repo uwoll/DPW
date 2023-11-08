@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E6A8AE2-1411-392F-7488-1870985198E2" name="Produk">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>4FFCAAE0-3B0F-63F5-4DA9-6BDB96BB85D3</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Menu" id="669AAE03-B235-1677-531A-CB0509BD61B8">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>EF5B2FCE-D567-6293-C773-B89354A08DDE</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Menu" id="39F90F8A-6073-D4A4-40E7-733CEF4F65FD">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>EBC22BDA-871A-8724-BB97-521C5FD28199</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="5C69B98A-6FB6-B760-0090-56FD9269B173">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>9F42439A-E296-CABE-05EF-C519E3A138E0</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deskripsi" id="3DF04D25-838C-B219-29AF-9F50B0ADD6D9">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>7BFDEDDD-3235-431E-7337-E60FEE9A1EF9</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Pesanan" id="151AA50D-CA08-08D1-AB06-71C5982D349A">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>17F515A6-CA12-28E5-426F-A27843CB841D</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item_Pesanan_ID_Item_Pesanan" id="8BC59AE9-3CD3-2E00-331D-B4570702DCD1">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>4F9DF2E8-CBD2-BEFB-62B4-A0A155148C77</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FEBEF4B-F819-3DE4-048A-CBFF622AC92C" referredColumn="19BF1647-2067-48EF-AF11-90D40BE6CA03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0EC2ECF-AF48-F3F3-70D4-594557459ECF" name="Produk_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>B8D64ECE-962A-0715-7ED0-FD7CC52777FE</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="669AAE03-B235-1677-531A-CB0509BD61B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="418F3BB6-44C2-A53D-C178-EBB3C62648AE" name="Produk__IDX">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C1C1ACE8-84DE-F4B2-B3B6-A9EDCCAF6C38</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8BC59AE9-3CD3-2E00-331D-B4570702DCD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="594179D7-8EE5-F179-86ED-B719C6C57C28" name="Produk_Item_Pesanan_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>C1C1ACE8-84DE-F4B2-B3B6-A9EDCCAF6C38</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BC59AE9-3CD3-2E00-331D-B4570702DCD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9ACE344-4383-5F47-1C54-1B962D81DF23" name="Staff">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>9327C1B5-AD2D-E721-349E-43304473A736</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Staff_Cafe" id="923C873C-CD7D-E15A-1E34-E1AB6EC54E76">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>41EFDF77-D4F5-257E-12C8-E1F821A5178B</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Staff" id="2AA3DF51-6A37-D951-48E3-C6EB198AC3A8">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>7B651F18-A841-DF13-3C79-5E79DD96044C</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jabatan" id="A6100195-82B8-19AA-F356-A56C64D3E572">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>DA658D0A-8F42-9408-B7E1-AB22E6A36F97</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat_Staff" id="D933493E-238E-C2D5-787E-6EF665162C24">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>20E716FD-2467-BCD0-8E16-0EF0E8652F29</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nomor_Telepon" id="BB046F4F-BE82-B3B2-5ECD-C81661429B30">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>98198131-A001-13B4-3086-C0D83DEA8400</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Staff" id="29231EB1-90DB-B6E0-BC3E-FBE753CEB0E1">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>96D18A8E-734E-7493-9E1E-A0ABA095A0C7</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB728740-3FBF-756F-C5A8-341D604BE5A0" name="Staff_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:26:53 UTC</createdTime>
+<generatorID>A641268F-89E1-61A3-06FE-70907ADE203B</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="923C873C-CD7D-E15A-1E34-E1AB6EC54E76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

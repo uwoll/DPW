@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pesan menu" directorySegmentName="seg_0" id="DEDD1EEC-953C-AA4E-C199-58FE1FC01E3A">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:21:25 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F03E65BF-1A0A-7199-0E9F-E23DF49E1F2F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>538D4F1A-B06F-8384-46AC-BF06AD388EAD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

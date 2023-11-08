@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Transaksi" directorySegmentName="seg_0" id="93B3E314-D23F-BAD6-6E45-3CC38067FE2B">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:18:45 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<sourcePk>A641268F-89E1-61A3-06FE-70907ADE203B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9327C1B5-AD2D-E721-349E-43304473A736</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>056E40C3-11D4-4F0E-FA31-88D37B933AAB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

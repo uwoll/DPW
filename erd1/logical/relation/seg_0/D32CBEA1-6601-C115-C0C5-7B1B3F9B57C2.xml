@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mesan" directorySegmentName="seg_0" id="D32CBEA1-6601-C115-C0C5-7B1B3F9B57C2">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:19:49 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<sourcePk>4CEB174C-4E6F-1AE3-39D1-44784946E90E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>056E40C3-11D4-4F0E-FA31-88D37B933AAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F03E65BF-1A0A-7199-0E9F-E23DF49E1F2F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

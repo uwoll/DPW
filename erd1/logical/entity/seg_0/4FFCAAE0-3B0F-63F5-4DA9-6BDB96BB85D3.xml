@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FFCAAE0-3B0F-63F5-4DA9-6BDB96BB85D3" name="Produk">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 15:45:57 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Menu" id="EF5B2FCE-D567-6293-C773-B89354A08DDE">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 15:46:36 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Menu" id="EBC22BDA-871A-8724-BB97-521C5FD28199">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 15:46:36 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="9F42439A-E296-CABE-05EF-C519E3A138E0">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 15:46:37 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Deskripsi" id="7BFDEDDD-3235-431E-7337-E60FEE9A1EF9">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 15:46:37 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Item_Pesanan" id="17F515A6-CA12-28E5-426F-A27843CB841D">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 15:46:44 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Item_Pesanan" id="4F9DF2E8-CBD2-BEFB-62B4-A0A155148C77">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:22:35 UTC</createdTime>
+<generatorID>C1C1ACE8-84DE-F4B2-B3B6-A9EDCCAF6C38</generatorID>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<referedAttribute>04AE4570-8052-C4D9-74C9-47A608E41CAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8D64ECE-962A-0715-7ED0-FD7CC52777FE" name="Produk PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 15:47:21 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF5B2FCE-D567-6293-C773-B89354A08DDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

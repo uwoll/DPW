@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="lihat menu" directorySegmentName="seg_0" id="322CCED8-BC1A-BCA4-5F54-52E28D565B3A">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-08 16:24:02 UTC</createdTime>
+<ownerDesignName>erd1</ownerDesignName>
+<engineerTo>
+<item key="B9E79803-A9E0-2D97-A09D-A8EA0BB4C655" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>056E40C3-11D4-4F0E-FA31-88D37B933AAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4FFCAAE0-3B0F-63F5-4DA9-6BDB96BB85D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
