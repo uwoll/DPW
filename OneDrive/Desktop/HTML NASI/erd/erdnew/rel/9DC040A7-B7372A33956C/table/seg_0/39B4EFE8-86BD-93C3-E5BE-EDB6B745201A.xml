@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39B4EFE8-86BD-93C3-E5BE-EDB6B745201A" name="TRANSAKSI_PEMBAYARAN">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>8F78AA2A-7F18-EC86-008C-B3B419817BC8</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<abbreviation>tpn</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Transaksi" id="ED2F5124-BDF9-F60E-E59F-4F50C4D5B252">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>DE54953E-397F-7521-A3B4-BC3F90D9B57B</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Metode_Pembayaran" id="7CA83E8A-0907-BD15-AF2A-47C55B730871">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>F043B5FC-41BE-A63A-90D3-9747BC2E83B8</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Bayar" id="508FD24F-7BB9-B5CC-9B55-F18A4F3193CF">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>34B8F339-7147-727A-A8C3-35C347832CCA</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESANAN_ID_Pesanan" id="E57F0A21-A33D-BFF5-7E6E-8E7285BDD523">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>8B28FFDB-6A9B-C4BB-E60C-774E007760E7</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BB21CFE-FCEC-6CB5-D659-F7B006E57224" referredColumn="33777828-3FCE-FA79-DF3D-F91BBCEBEB1F"/>
+</associations>
+</Column>
+<Column name="PELANGGAN_ID_Pelanggan" id="F81D228A-AD32-AA90-DF14-1DED389C6C46">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>6C08EAD3-AEF7-D978-A729-7648FA5BE51E</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2A9581D-38C2-9ADD-C90B-4A3D06105AE2" referredColumn="32C62C4E-20F3-B80B-C637-D57B26A59FC0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26950095-81C6-9FD0-2301-53D876357E5B" name="TRANSAKSI_PEMBAYARAN_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>1FB29A59-F863-F621-7536-8B99B213C4DA</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED2F5124-BDF9-F60E-E59F-4F50C4D5B252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF3B022D-FF5A-0EF1-6E7A-56C3C6A8D568" name="TRANSAKSI_PEMBAYARAN_PESANAN_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>4E31E2F9-D94E-3D95-AADE-5F6795428464</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E57F0A21-A33D-BFF5-7E6E-8E7285BDD523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88AB3604-11CC-DBF1-395C-7BE3988E9BF9" name="TRANSAKSI_PEMBAYARAN_PELANGGAN_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>BB9C255E-A388-694C-4BAB-125DC26ED592</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F81D228A-AD32-AA90-DF14-1DED389C6C46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

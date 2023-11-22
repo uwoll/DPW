@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2B7FF53-7A4D-C731-D163-9B083E597C24" name="PRODUK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>2E0BD70D-A189-E330-2EB2-3E6522E1BFE1</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<abbreviation>pdk</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produk" id="F9667B98-F7CC-C835-A812-91DD8313313F">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>49F44C13-EF19-EC85-E1F9-DD4C0F8AD90C</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Produk" id="A0EFC70E-EB01-40B6-E1C1-00C9953C9169">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>82EC08FD-3812-F290-DD5A-0F72E95538BD</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="484AEDB1-F570-FEFA-BBD3-45599476CA14">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>E115DAF4-1395-DEE2-7F48-398893D5315D</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok" id="DB52782E-0EB2-C673-E170-756C5045FF13">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>5720E26D-117A-292F-5428-BB7A6F7E0609</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESANAN_PRODUK_ID_Pesanan_Produk" id="73221918-6F8B-C821-C0F1-2B7439E68369">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>8E05BE4B-5359-D704-4B74-66112BB0BF76</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F209D593-942F-9CBC-F024-FC1DB0DEF3F5" referredColumn="B380AD28-08B3-9080-F8AC-4F0D4BBDBD58"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1962124-FC6A-2A38-A752-704F86863762" name="PRODUK_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>066CAE35-2F61-32F8-9B91-3A14183D4FDA</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9667B98-F7CC-C835-A812-91DD8313313F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44E20DFD-9AD9-2ECD-683F-17E93976BB97" name="PRODUK_PESANAN_PRODUK_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:59:51 UTC</createdTime>
+<generatorID>559BEFDB-4951-4431-B7D1-8304ACFAA052</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73221918-6F8B-C821-C0F1-2B7439E68369"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

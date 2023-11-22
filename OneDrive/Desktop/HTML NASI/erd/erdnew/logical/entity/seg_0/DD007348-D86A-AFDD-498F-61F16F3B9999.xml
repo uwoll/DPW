@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD007348-D86A-AFDD-498F-61F16F3B9999" name="PELANGGAN">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:27:37 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>pln</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pelanggan" id="424A2262-1AD8-36A3-00CA-BD5A4E4F498E">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:28:10 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Pelanggan" id="A612D05F-D7AE-7A92-E435-47638D0E3D16">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:28:10 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alamat_Pelanggan" id="F41DE64E-BDB0-F75C-EC3E-5A363C6F7715">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:28:10 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_Telepon" id="086E678F-8DB3-EFD8-5F83-986C94162439">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:28:11 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Staff" id="D3B9CD84-3698-B3A8-49A0-9FB0274938B7">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:43:49 UTC</createdTime>
+<generatorID>CD17485F-213C-3817-84DC-E654EA327B38</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<referedAttribute>4CD1DA4D-0B1C-4EE7-7822-D17C36A15DBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38A251C6-2EAA-EAE0-B829-2349C14C38A9" name="PELANGGAN PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:28:33 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>424A2262-1AD8-36A3-00CA-BD5A4E4F498E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MELAYANI" directorySegmentName="seg_0" id="CD17485F-213C-3817-84DC-E654EA327B38">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:43:49 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<sourcePk>49688410-0B46-10C0-A938-1D2A6883FCC6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>405E26B2-C6C7-5CD8-F2A4-A95F0E8EFAAF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD007348-D86A-AFDD-498F-61F16F3B9999</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

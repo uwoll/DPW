@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BAYAR PESANANv2" directorySegmentName="seg_0" id="BB9C255E-A388-694C-4BAB-125DC26ED592">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:42:53 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<sourcePk>38A251C6-2EAA-EAE0-B829-2349C14C38A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD007348-D86A-AFDD-498F-61F16F3B9999</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8F78AA2A-7F18-EC86-008C-B3B419817BC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

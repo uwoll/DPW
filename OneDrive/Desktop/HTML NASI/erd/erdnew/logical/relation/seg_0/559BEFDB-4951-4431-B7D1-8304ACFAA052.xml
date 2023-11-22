@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CATAT PESANAN" directorySegmentName="seg_0" id="559BEFDB-4951-4431-B7D1-8304ACFAA052">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-22 16:46:39 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+</engineerTo>
+<sourcePk>774463E2-45FB-B18E-ED9F-2A8C0931F3A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8AB2370-4E41-85B1-5376-04DE9CC5D76E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2E0BD70D-A189-E330-2EB2-3E6522E1BFE1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
