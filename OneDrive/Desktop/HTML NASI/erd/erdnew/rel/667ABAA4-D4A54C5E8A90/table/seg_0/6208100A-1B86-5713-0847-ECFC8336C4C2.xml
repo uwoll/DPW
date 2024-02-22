@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6208100A-1B86-5713-0847-ECFC8336C4C2" name="PELANGGAN">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>DD007348-D86A-AFDD-498F-61F16F3B9999</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<abbreviation>pln</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pelanggan" id="72FD31C5-AB99-E4DC-B894-18EFF501AB36">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>424A2262-1AD8-36A3-00CA-BD5A4E4F498E</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Pelanggan" id="0248495F-FF97-4E57-6D5E-9D61D002D4BE">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>A612D05F-D7AE-7A92-E435-47638D0E3D16</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat_Pelanggan" id="CC5516F2-2475-D404-F0C8-5F10CA62C66A">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>F41DE64E-BDB0-F75C-EC3E-5A363C6F7715</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_Telepon" id="EBB77F1E-E28D-EA10-FD51-1147B4AF7B27">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>086E678F-8DB3-EFD8-5F83-986C94162439</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFF_ID_Staff" id="F3153A22-3D58-BA45-55C4-2B529023A9E3">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>D3B9CD84-3698-B3A8-49A0-9FB0274938B7</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40336EB1-0469-EEDB-B654-AD0AF43C8A68" referredColumn="C4C788E4-6E68-FCB3-E2CC-D5290F40DBFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CACF3912-704F-7904-EA5C-B01D59B8EED0" name="PELANGGAN_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>38A251C6-2EAA-EAE0-B829-2349C14C38A9</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72FD31C5-AB99-E4DC-B894-18EFF501AB36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C921DD18-B16A-54B1-8E0D-FA878A54E9E8" name="PELANGGAN_STAFF_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>CD17485F-213C-3817-84DC-E654EA327B38</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3153A22-3D58-BA45-55C4-2B529023A9E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

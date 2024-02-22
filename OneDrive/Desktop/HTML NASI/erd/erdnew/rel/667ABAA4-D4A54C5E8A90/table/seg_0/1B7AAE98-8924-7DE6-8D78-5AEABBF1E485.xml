@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B7AAE98-8924-7DE6-8D78-5AEABBF1E485" name="PRODUK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>2E0BD70D-A189-E330-2EB2-3E6522E1BFE1</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<abbreviation>pdk</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produk" id="2742EE8B-152D-AE56-B6A1-79D005789C76">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>49F44C13-EF19-EC85-E1F9-DD4C0F8AD90C</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Produk" id="A757A4CC-E614-6DDB-A976-C3804D495AF0">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>82EC08FD-3812-F290-DD5A-0F72E95538BD</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="C44968D2-1C2C-14B7-9B7B-AD91B5684337">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>E115DAF4-1395-DEE2-7F48-398893D5315D</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok" id="0477B2D0-D3BE-B6AE-4926-F74374367CB6">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>5720E26D-117A-292F-5428-BB7A6F7E0609</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="426D5F26-FD3B-70DC-B316-B5A129FF8845" name="PRODUK_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:00:23 UTC</createdTime>
+<generatorID>066CAE35-2F61-32F8-9B91-3A14183D4FDA</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2742EE8B-152D-AE56-B6A1-79D005789C76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

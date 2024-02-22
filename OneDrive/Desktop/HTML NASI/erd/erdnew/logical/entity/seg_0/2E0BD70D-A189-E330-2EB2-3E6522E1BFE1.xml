@@ -4,7 +4,9 @@
 <createdTime>2023-11-22 16:30:16 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +23,9 @@
 <createdTime>2023-11-22 16:30:32 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +38,9 @@
 <createdTime>2023-11-22 16:30:32 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +53,9 @@
 <createdTime>2023-11-22 16:30:33 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,26 +67,13 @@
 <createdTime>2023-11-22 16:30:33 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_Pesanan_Produk" id="8E05BE4B-5359-D704-4B74-66112BB0BF76">
-<createdBy>62812</createdBy>
-<createdTime>2023-11-22 16:59:04 UTC</createdTime>
-<generatorID>559BEFDB-4951-4431-B7D1-8304ACFAA052</generatorID>
-<ownerDesignName>erdnew</ownerDesignName>
-<engineerTo>
-<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
-</engineerTo>
-<referedAttribute>E0F8A795-CFDA-53B3-98CA-4F61B395C9A9</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -88,7 +83,9 @@
 <createdTime>2023-11-22 16:30:50 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

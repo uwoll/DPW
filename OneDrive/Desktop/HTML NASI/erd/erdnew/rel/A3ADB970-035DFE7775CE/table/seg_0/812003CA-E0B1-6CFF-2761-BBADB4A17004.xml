@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="812003CA-E0B1-6CFF-2761-BBADB4A17004" name="STAFF">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:43:11 UTC</createdTime>
+<generatorID>405E26B2-C6C7-5CD8-F2A4-A95F0E8EFAAF</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<abbreviation>stf</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Staff" id="740C2DA2-E4F9-D23D-4887-A9A8EE2B41B2">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:43:11 UTC</createdTime>
+<generatorID>4CD1DA4D-0B1C-4EE7-7822-D17C36A15DBB</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Staff" id="A4E80CC2-A68F-9D1A-5CA1-321EBA67BEE0">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:43:11 UTC</createdTime>
+<generatorID>F1C7BA32-5D9C-315F-AC42-846A24D8A493</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jabatan" id="149216D8-3439-ED50-CCD7-73A0A6DFDE66">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:43:11 UTC</createdTime>
+<generatorID>DD29841C-0BAD-93E9-5C33-52C232E610A3</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gaji" id="666969B8-8E1D-C4C6-0CA5-912E9AE0B8B8">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:43:11 UTC</createdTime>
+<generatorID>AA0AA8DC-252D-7F7E-34AA-731FDEC90B87</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jadwal_Kerja" id="72D95904-1970-720D-3D1D-EB899338A69B">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:43:11 UTC</createdTime>
+<generatorID>241934CC-5299-51EE-97B7-9B36CCC53581</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21F2E2E1-7974-F6B1-A727-FA0D065C1565" name="STAFF_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:43:11 UTC</createdTime>
+<generatorID>49688410-0B46-10C0-A938-1D2A6883FCC6</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="740C2DA2-E4F9-D23D-4887-A9A8EE2B41B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

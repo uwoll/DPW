@@ -4,7 +4,10 @@
 <createdTime>2023-11-22 16:27:37 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +24,10 @@
 <createdTime>2023-11-22 16:28:10 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +40,10 @@
 <createdTime>2023-11-22 16:28:10 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +56,10 @@
 <createdTime>2023-11-22 16:28:10 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,26 +73,14 @@
 <createdTime>2023-11-22 16:28:11 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_Staff" id="D3B9CD84-3698-B3A8-49A0-9FB0274938B7">
-<createdBy>62812</createdBy>
-<createdTime>2023-11-22 16:43:49 UTC</createdTime>
-<generatorID>CD17485F-213C-3817-84DC-E654EA327B38</generatorID>
-<ownerDesignName>erdnew</ownerDesignName>
-<engineerTo>
-<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
-</engineerTo>
-<referedAttribute>4CD1DA4D-0B1C-4EE7-7822-D17C36A15DBB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -90,7 +90,10 @@
 <createdTime>2023-11-22 16:28:33 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

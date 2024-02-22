@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="192E7557-DF3A-F524-E370-84DABCE3E512" name="TRANSFER">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>4799EB99-6C3F-21B4-BE59-0430380A1AEE</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tpn_ID_Transaksi" id="BF048268-D047-7823-1FCE-47A3EB858551">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>DE54953E-397F-7521-A3B4-BC3F90D9B57B</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="723F838B-575D-854C-F1B6-0A6615BA6AB3" referredColumn="5DEDFC5B-9AEF-7320-9FEC-892004154D2B"/>
+</associations>
+</Column>
+<Column name="ID_Transfer" id="6D188561-D149-42DD-EA97-78C3AADC049C">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>A29174F2-069A-3FCB-A12A-20B2C256BDE5</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nomor_Rekening" id="F023ACBD-F76F-826B-7374-1CF8BF91379A">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>735AA58E-F438-4AAB-0F40-C8D6CCCE6970</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Rekening" id="A6831717-FF61-9D65-FC8D-C8C5BF395C39">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>2F85A740-4763-30E9-5E43-EBA81AD76D52</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4D425D1-0AE9-05A3-5300-2492EAC2F3FA" name="TRANSFER_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>1FB29A59-F863-F621-7536-8B99B213C4DA</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF048268-D047-7823-1FCE-47A3EB858551"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B91A3611-5955-A5F5-CBAF-3810A22B6431" name="TRANSFER_PKv1">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>D5D03876-9C6F-1653-7CA8-5EB683E5960D</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D188561-D149-42DD-EA97-78C3AADC049C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59941F50-B831-E870-3060-231C21D20C72" name="TRANSFER_TRANSAKSI_PEMBAYARAN_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>52267AF1-843E-20B6-5FCA-514280FEA7E7</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF048268-D047-7823-1FCE-47A3EB858551"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9F040C2-62E4-30F3-8744-17FE06493165" containerWithKeyObject="D6520DDF-8D7E-C7AA-31C7-D446D1144D20" localFKIndex="07CB2450-97FC-3FA6-375C-E839AFC4446E" name="TRANSAKSI_PEMBAYARAN_PELANGGAN_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:43:11 UTC</createdTime>
+<generatorID>BB9C255E-A388-694C-4BAB-125DC26ED592</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<referredTableLongName>PELANGGAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD575225-EC7E-8136-3A5F-9E1D0922B32A</referredTableID>
+<keyObject>75221359-AA30-6217-369F-55C9CCCDF8FA</keyObject>
+<referredKeyID>75221359-AA30-6217-369F-55C9CCCDF8FA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Pelanggan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

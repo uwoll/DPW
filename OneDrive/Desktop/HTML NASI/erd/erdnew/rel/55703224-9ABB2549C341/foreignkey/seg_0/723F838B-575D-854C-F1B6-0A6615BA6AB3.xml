@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="723F838B-575D-854C-F1B6-0A6615BA6AB3" containerWithKeyObject="192E7557-DF3A-F524-E370-84DABCE3E512" localFKIndex="59941F50-B831-E870-3060-231C21D20C72" name="TRANSFER_TRANSAKSI_PEMBAYARAN_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>52267AF1-843E-20B6-5FCA-514280FEA7E7</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<referredTableLongName>TRANSAKSI_PEMBAYARAN</referredTableLongName>
+<arc>874CDA3F-CA72-BDE1-19D3-813C70AB8675</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13FD44FF-BA0D-F8BE-FAB8-231D0CAB0240</referredTableID>
+<keyObject>B24401DA-6FCB-D051-6C5E-C9FEAC8FC6A5</keyObject>
+<referredKeyID>B24401DA-6FCB-D051-6C5E-C9FEAC8FC6A5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tpn_ID_Transaksi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

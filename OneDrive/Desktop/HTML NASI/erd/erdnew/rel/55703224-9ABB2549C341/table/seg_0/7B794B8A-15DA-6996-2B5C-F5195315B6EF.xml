@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B794B8A-15DA-6996-2B5C-F5195315B6EF" name="HARGA">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>11C549DB-9D8A-8B26-ABA5-0C99ED260A69</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<abbreviation>hga</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tanggal_Awal" id="45DA5C3C-9776-7F8E-CF07-D3F71E2A10DE">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>1455D5DE-1443-05D3-DDB7-A363BFDA5DA7</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Akhir" id="326456D1-ADD4-D822-B1CA-CD24700F7BD3">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>4F3D4AF4-68B1-3CBE-8CB0-A080EE54FBDC</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="660B1B2B-D4AA-063E-7AFF-C114BDBF6F2C">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>858A7883-E04A-A399-9C50-CBBD58988CB0</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUK_ID_Produk" id="F2BD129A-77D8-A80F-0A5F-C67B3E8FC394">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>1601B8BE-A90B-920A-5D1E-3FE0615A9FF3</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35EEDB9C-A61B-3069-1C05-33F606C9D5E9" referredColumn="9EC3C015-F54F-12F8-EA67-B1B554C1E735"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD3EA479-8F41-1A5C-61E8-C67BBE1F4FA8" name="HARGA_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>7F99A0E9-5679-D4F4-A5BB-F86D7BBBEE30</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45DA5C3C-9776-7F8E-CF07-D3F71E2A10DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A2C681A-F562-ACB9-D053-2354291EAAF7" name="HARGA_PRODUK_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:12:25 UTC</createdTime>
+<generatorID>E2727270-BCAE-D122-F137-51FCAB05D844</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2BD129A-77D8-A80F-0A5F-C67B3E8FC394"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A5E4904-BCBA-802B-3053-A970F25036E8" containerWithKeyObject="05993E13-711C-1571-896F-94B93D65DD6F" localFKIndex="332653C6-6552-3E1B-31A2-D268375641F8" name="HARGA_PRODUK_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-23 02:11:11 UTC</createdTime>
+<generatorID>E2727270-BCAE-D122-F137-51FCAB05D844</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<referredTableLongName>PRODUK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6B53B405-D3FD-8E8E-5A64-980394097188</referredTableID>
+<keyObject>80001B95-961F-08A2-2130-485BA2C85D1E</keyObject>
+<referredKeyID>80001B95-961F-08A2-2130-485BA2C85D1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Produk</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

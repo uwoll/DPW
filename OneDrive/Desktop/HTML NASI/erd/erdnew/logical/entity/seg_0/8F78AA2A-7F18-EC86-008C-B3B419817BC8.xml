@@ -4,7 +4,11 @@
 <createdTime>2023-11-22 16:33:59 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
+<item key="470D3372-69BF-8EE5-5142-AE90D351B0C5" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,20 +25,11 @@
 <createdTime>2023-11-22 16:34:37 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Metode_Pembayaran" id="F043B5FC-41BE-A63A-90D3-9747BC2E83B8">
-<createdBy>62812</createdBy>
-<createdTime>2023-11-22 16:34:38 UTC</createdTime>
-<ownerDesignName>erdnew</ownerDesignName>
-<engineerTo>
-<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
+<item key="470D3372-69BF-8EE5-5142-AE90D351B0C5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,11 +42,31 @@
 <createdTime>2023-11-22 16:34:38 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
+<item key="470D3372-69BF-8EE5-5142-AE90D351B0C5" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_Bayar" id="F2809232-6222-817C-4243-A43DC479F2AA">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 14:58:27 UTC</createdTime>
+<ownerDesignName>erdnew</ownerDesignName>
+<engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
+<item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
+<item key="470D3372-69BF-8EE5-5142-AE90D351B0C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_Pesanan" id="8B28FFDB-6A9B-C4BB-E60C-774E007760E7">
@@ -60,14 +75,18 @@
 <generatorID>4E31E2F9-D94E-3D95-AADE-5F6795428464</generatorID>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
+<item key="470D3372-69BF-8EE5-5142-AE90D351B0C5" value="true"/>
 </engineerTo>
 <referedAttribute>EF1E5714-9EDC-02CB-A287-C6A3739F4741</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_Pelanggan" id="6C08EAD3-AEF7-D978-A729-7648FA5BE51E">
 <createdBy>62812</createdBy>
@@ -75,14 +94,18 @@
 <generatorID>BB9C255E-A388-694C-4BAB-125DC26ED592</generatorID>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
+<item key="470D3372-69BF-8EE5-5142-AE90D351B0C5" value="true"/>
 </engineerTo>
 <referedAttribute>424A2262-1AD8-36A3-00CA-BD5A4E4F498E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -91,7 +114,11 @@
 <createdTime>2023-11-22 16:34:52 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
+<item key="A3ADB970-11DB-C79E-E630-035DFE7775CE" value="true"/>
+<item key="470D3372-69BF-8EE5-5142-AE90D351B0C5" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -4,10 +4,14 @@
 <createdTime>2023-11-22 16:42:09 UTC</createdTime>
 <ownerDesignName>erdnew</ownerDesignName>
 <engineerTo>
+<item key="667ABAA4-5E2E-F9D9-DEB9-D4A54C5E8A90" value="true"/>
 <item key="9DC040A7-DA45-BA21-BB67-B7372A33956C" value="true"/>
+<item key="2E520E94-33D8-E6C7-35C0-8BB040A7A877" value="true"/>
 </engineerTo>
 <sourcePk>B17BBEA0-D261-8B64-EAE5-027A3AC79EDA</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>Memiliki</nameOnSource>
+<nameOnTarget>Dimiliki</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

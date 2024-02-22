@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E1C7C0B-CE49-D160-466B-66ED9504DC19" name="CASH">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>2FBECDD1-4FE6-805D-6BE9-5992F95B3EB1</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tpn_ID_Transaksi" id="ADFA9454-D5BB-999A-8D2C-E084F6DE2331">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>DE54953E-397F-7521-A3B4-BC3F90D9B57B</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDBFD27C-1384-AACF-3D40-07CDAC3B40F3" referredColumn="8C6F96A7-FA81-09A7-5C46-EA6B9E482AF0"/>
+</associations>
+</Column>
+<Column name="Jumlah_Tunai" id="56BCDBDF-F291-0678-2D5A-13B7EE404B00">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>5CC8120A-AA17-462D-1E73-971FCCF28F6D</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B137594-25FB-BFCD-DF2B-9718DC19F266" name="CASH_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>1FB29A59-F863-F621-7536-8B99B213C4DA</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADFA9454-D5BB-999A-8D2C-E084F6DE2331"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CEE1BA9-E201-417D-5B81-70EE05EA45E1" name="CASH_PKv1">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>58884737-086C-B7F1-4CA0-93D7FC865901</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="1B2E79C0-2376-93F5-1205-13BBAD04C5EC" name="CASH_TRANSAKSI_PEMBAYARAN_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>F29DDB72-121B-E062-5374-B53D70CE0281</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADFA9454-D5BB-999A-8D2C-E084F6DE2331"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

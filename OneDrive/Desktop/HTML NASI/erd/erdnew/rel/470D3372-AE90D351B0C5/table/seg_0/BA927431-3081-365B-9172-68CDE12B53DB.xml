@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA927431-3081-365B-9172-68CDE12B53DB" name="PESANAN">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>8878A21F-556D-C054-812E-840511201851</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<abbreviation>psn</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pesanan" id="25153176-0E2C-1090-9E3A-F097816255AD">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>EF1E5714-9EDC-02CB-A287-C6A3739F4741</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Pesanan" id="5B59E10E-3484-0CFD-4068-155C2EB315A5">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>EB5231BD-BF5E-B652-9D06-C50FD66A6F37</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Harga" id="F35EF2CE-38EF-DE69-F19E-EC48F35FAD6F">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>B734CB04-68EA-697A-8873-247BDC7C9DA4</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jumlah_Produk" id="661FC42B-7724-21CE-BB8F-B3DA7DAB2B55">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>557C064E-1429-3453-964D-9DD33A629744</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PELANGGAN_ID_Pelanggan" id="CBD0BC32-C09D-7B8C-A8C5-D75FC8840E81">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>0991EDE4-D7A1-5B59-3533-2B7ACE7A4AD4</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82ECE9CB-9C65-36FD-3925-7837581FFDBF" referredColumn="DF865DDA-8A25-E094-593C-AC2A5167E428"/>
+</associations>
+</Column>
+<Column name="STAFF_ID_Staff" id="AE528F46-C9BD-1AC0-9A43-313FF5149CC5">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>182EF6B4-746A-AE44-701A-EACF58E9E218</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9275915-DCEE-E96D-CB75-96FAF90D2CCF" referredColumn="29FFE1FA-435C-0FA7-46CF-628B86213A35"/>
+</associations>
+</Column>
+<Column name="PRODUK_ID_Produk" id="413279DC-6872-4E15-ABCE-B07BDDFD4BB1">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>4F755DD7-145F-5A52-ABC3-AAE3D820D1F0</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83EC4C2B-4D96-0A7D-A803-C41A016144A5" referredColumn="423BFB2B-8046-3832-180C-370EBDAAF51F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83E93D47-FC28-05A4-D642-B1AA1C394238" name="PESANAN_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>B17BBEA0-D261-8B64-EAE5-027A3AC79EDA</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25153176-0E2C-1090-9E3A-F097816255AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="269397E0-21B0-C5EF-E48E-809BBA31C4A0" name="PESANAN_PRODUK_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>3BA9B056-FF8C-185D-EA0D-E0DD16CAC00A</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="413279DC-6872-4E15-ABCE-B07BDDFD4BB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8B6ED90-403F-A2D0-B02D-D249A9C09E4C" name="PESANAN_STAFF_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>AAB284A1-385E-05B3-0EB9-F046BA135538</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE528F46-C9BD-1AC0-9A43-313FF5149CC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E166DA04-659C-4AD9-F2BC-4ECAF9CFB8F6" name="PESANAN_PELANGGAN_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:02:15 UTC</createdTime>
+<generatorID>1A43F7E7-C704-C801-907C-36EDC10C4F75</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBD0BC32-C09D-7B8C-A8C5-D75FC8840E81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

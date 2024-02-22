@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25EFF8A7-6594-096F-557B-18EE77CCB450" name="TRANSFER">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>4799EB99-6C3F-21B4-BE59-0430380A1AEE</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tpn_ID_Transaksi" id="0F788335-63D0-0FC3-04F8-B1BE2BFB19AA">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>DE54953E-397F-7521-A3B4-BC3F90D9B57B</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="620D2AB7-B418-EB8E-CD6E-51923A4F3EBB" referredColumn="8C6F96A7-FA81-09A7-5C46-EA6B9E482AF0"/>
+</associations>
+</Column>
+<Column name="Nomor_Rekening" id="7204DF9C-2320-2F2A-EF61-D97CD041EADB">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>735AA58E-F438-4AAB-0F40-C8D6CCCE6970</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Rekening" id="0E288ABF-B665-07E5-04B2-525A21833DFD">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>2F85A740-4763-30E9-5E43-EBA81AD76D52</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71BBA691-FEF1-9BF2-75E2-3264AC54C2BB" name="TRANSFER_PK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>1FB29A59-F863-F621-7536-8B99B213C4DA</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F788335-63D0-0FC3-04F8-B1BE2BFB19AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F55EEE74-BE3F-611F-42D8-EDA64E877275" name="TRANSFER_PKv1">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>D5D03876-9C6F-1653-7CA8-5EB683E5960D</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="3C93690D-E0C6-6779-5B9C-039B643165C4" name="TRANSFER_TRANSAKSI_PEMBAYARAN_FK">
+<createdBy>62812</createdBy>
+<createdTime>2023-11-28 15:23:58 UTC</createdTime>
+<generatorID>52267AF1-843E-20B6-5FCA-514280FEA7E7</generatorID>
+<ownerDesignName>erdnew</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F788335-63D0-0FC3-04F8-B1BE2BFB19AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
